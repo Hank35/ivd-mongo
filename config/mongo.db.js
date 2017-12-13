@@ -11,4 +11,4 @@ var connection = mongoose.connection
         console.warn('Warning', error.toString());
     });
 
-mongoose.connection.dropDatabase();
+module.exports = connection;
