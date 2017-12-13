@@ -13,7 +13,7 @@ const Film = mongoose.model('film', FilmSchema);
 const film1 = new Film({
     name: 'The Matrix',
     description:'Welcome to the Real World',
-    imagePath: 'https://resizing.flixster.com/a2U1lUGlpYOCupFiv8dJMypbkh0=/206x305/v1.bTsxMjU3NjUzNjtqOzE3NTYwOzEyMDA7NDA1MDs2MDAw',
+    imagePath: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQq3pIz-aKgkmYX1dJ-EL-AlHSPcOO7wdqRIJ5gJy9qNinXpmle',
 
 }).save();
 
