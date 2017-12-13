@@ -13,8 +13,7 @@ const Film = mongoose.model('film', FilmSchema);
 const film1 = new Film({
     name: 'The Matrix',
     description:'Welcome to the Real World',
-    imagePath: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQq3pIz-aKgkmYX1dJ-EL-AlHSPcOO7wdqRIJ5gJy9qNinXpmle',
-
+    imagePat:'https://pics.me.me/what-ifitoli-you-i-never-saw-the-matrix-memeful-com-13519947.png',
 }).save();
 
 module.exports = Film;
