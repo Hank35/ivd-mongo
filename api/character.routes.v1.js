@@ -33,7 +33,7 @@ routes.get('/characters/:id', function(req, res) {
         
             var update = { 
                 "name" : req.body.name, 
-                "age" : req.body.age,
+                "description" : req.body.description,
                 "imagePath": req.body.imagePath
             };
             Character.findById(id)
