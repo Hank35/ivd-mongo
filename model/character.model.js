@@ -8,7 +8,7 @@ const CharacterSchema = new Schema({
     imagePath: String
 });
 
-const Character = mongoose.model('character', CharacterSchema);
+const Character = mongoose.model('characters', CharacterSchema);
 
 const character1 = new Character({
     name: 'neo',
