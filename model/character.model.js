@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const CharacterSchema = new Schema({
     name: String,
-    age: Number,
+    description: String,
     imagePath: String
 });
 
@@ -12,14 +12,14 @@ const Character = mongoose.model('character', CharacterSchema);
 
 const character1 = new Character({
     name: 'neo',
-    age: 44 ,
+    description: 44 ,
     imagePath: 'https://pics.me.me/what-ifitoli-you-i-never-saw-the-matrix-memeful-com-13519947.png',
 
 }).save();
 
 const character2 = new Character({
     name: 'Laurence',
-    age: 63 ,
+    description: 63 ,
     imagePath: 'https://pics.me.me/what-ifitoli-you-i-never-saw-the-matrix-memeful-com-13519947.png',
 
 }).save();
