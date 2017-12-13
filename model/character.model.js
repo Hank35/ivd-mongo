@@ -17,11 +17,4 @@ const character1 = new Character({
 
 }).save();
 
-const character2 = new Character({
-    name: 'Laurence',
-    description: 63 ,
-    imagePath: 'https://pics.me.me/what-ifitoli-you-i-never-saw-the-matrix-memeful-com-13519947.png',
-
-}).save();
-
 module.exports = Character;
